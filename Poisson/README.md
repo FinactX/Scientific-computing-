@@ -1,5 +1,11 @@
 # Solver da Equação de Poisson 2D
 
+##SUMÁRIO
+ I. INTRODUÇÃO
+ II. INSTRUÇÕES PARA EXECUTAR
+ III. ARQUIVOS PRESENTES NO PROJETO
+ IV. REFERÊNCIAS
+
 Este diretório contém uma implementação numérica da equação de Poisson em duas dimensões usando diferenças finitas e métodos iterativos. O objetivo é resolver
 
 \[
