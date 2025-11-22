@@ -10,7 +10,10 @@
 A equação de Poisson é um exemplo de EDP (Equação Diferencial Parcial) elíptica bastante conhecida na física e modela alguns problemas importantes, como campos eletrostáticos, gravitação newtoniana e problemas de difusão em estado estacionário. Dada por
 
 $$
-\nabla^2 u = f(x,y), \mathrm{em} \Omega \subset \mathbb{R}^2
+\begin{cases}
+- \Delta u = f, & \text{em } \Omega, \\
+u = g,         & \text{em } \partial\Omega.
+\end{cases}
 $$
 
 com condições de contorno Dirichlet
