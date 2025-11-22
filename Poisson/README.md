@@ -12,12 +12,12 @@
 
 A equação de Poisson é um exemplo de EDP (Equação Diferencial Parcial) elíptica bastante conhecida na física e modela alguns problemas importantes, como campos eletrostáticos, gravitação newtoniana e problemas de difusão em estado estacionário. Suas condições de contorno levam a soluções tipicamente suaves. Este código resolve numericamente a equação dada por
 
-$$
+$
 \begin{cases}
 -\Delta u = f, & \text{em } \Omega,\\
 u = g, & \text{em } \partial\Omega.
 \end{cases}
-$$
+$
 
 A discretização é feita por diferenças finitas de segunda ordem e o sistema linear que obtemos é resolvido iterativamente via Gauss-Seidel.
 ---
