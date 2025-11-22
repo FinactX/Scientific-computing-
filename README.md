@@ -11,5 +11,5 @@ Repositório contendo implementações em C, C++ e Python relacionadas a método
 ├── Navier-Stokes/
 ├── Multigrid/
 ├── Three-Body-Problem/
-├── Data-Analysis/
+├── Ising Model/
 └── utils/
