@@ -11,8 +11,8 @@ A equação de Poisson é um exemplo de EDP (Equação Diferencial Parcial) elí
 
 $$
 \begin{cases}
-- \Delta u = f, & \text{em } \Omega, \\
-u = g,         & \text{em } \partial\Omega.
+-\Delta u = f, & \text{em } \Omega,\\
+u = g, & \text{em } \partial\Omega.
 \end{cases}
 $$
 
