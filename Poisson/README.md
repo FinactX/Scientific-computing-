@@ -7,14 +7,15 @@
  3. ARQUIVOS PRESENTES NO PROJETO
  4. REFERÊNCIAS
 
-Este diretório contém uma implementação numérica da equação de Poisson em duas dimensões usando diferenças finitas e métodos iterativos. O objetivo é resolver
+A equação de Poisson é um exemplo de EDP (Equação Diferencial Parcial) elíptica bastante conhecida na física e modela alguns problemas importantes, como campos eletrostáticos, gravitação newtoniana e problemas de difusão em estado estacionário. Dada por
 
 $$
 \nabla^2 u = f(x,y)
-$$
+$$, em
 
-em um domínio bidimensional com condições de contorno prescritas, além de gerar visualizações da solução numérica.
+$$ \Omega \subset \mathbb{R}^2 $$
 
+com condições de contorno Dirichlet
 ---
 
 ## 📂 Estrutura dos Arquivos
