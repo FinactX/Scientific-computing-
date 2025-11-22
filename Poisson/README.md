@@ -11,7 +11,9 @@ A equação de Poisson é um exemplo de EDP (Equação Diferencial Parcial) elí
 
 $$
 \nabla^2 u = f(x,y)
-$$, em
+$$
+
+em
 
 $$ \Omega \subset \mathbb{R}^2 $$
 
