@@ -2,10 +2,10 @@
 
 ## SUMÁRIO
 
- I. INTRODUÇÃO
- II. INSTRUÇÕES PARA EXECUTAR
- III. ARQUIVOS PRESENTES NO PROJETO
- IV. REFERÊNCIAS
+ 1. INTRODUÇÃO
+ 2. INSTRUÇÕES PARA EXECUTAR
+ 3. ARQUIVOS PRESENTES NO PROJETO
+ 4. REFERÊNCIAS
 
 Este diretório contém uma implementação numérica da equação de Poisson em duas dimensões usando diferenças finitas e métodos iterativos. O objetivo é resolver
 
