@@ -1,6 +1,6 @@
 # Solver da Equação de Poisson 2D
 
-## SUMÁRIO
+## 📑 SUMÁRIO
 
  1. INTRODUÇÃO
  2. INSTRUÇÕES PARA EXECUTAR
