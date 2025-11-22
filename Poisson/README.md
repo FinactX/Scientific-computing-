@@ -9,9 +9,9 @@
 
 Este diretório contém uma implementação numérica da equação de Poisson em duas dimensões usando diferenças finitas e métodos iterativos. O objetivo é resolver
 
-\[
+$$
 \nabla^2 u = f(x,y)
-\]
+$$
 
 em um domínio bidimensional com condições de contorno prescritas, além de gerar visualizações da solução numérica.
 
