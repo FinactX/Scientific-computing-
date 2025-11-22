@@ -37,6 +37,6 @@ A discretização é feita por diferenças finitas de segunda ordem e o sistema 
   Script Gnuplot para gerar os gráficos da solução.
 
 - **verificacao/**  
-  Pasta contendo o código usado para estudar a ordem de convergência do método.
+  Pasta contendo o gráfico de ordem que garante a boa implementação do solver.
 
 ---
