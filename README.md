@@ -1,2 +1,15 @@
-Ainda estou documentando. Apenas o solver da eq. Poisson tem um README.md decente por enquanto.
-Tá bagunçado, mas é de coração. '-'
+# Scientific Computing Projects
+
+Repositório contendo implementações em C, C++ e Python relacionadas a métodos numéricos, simulações físicas e computação científica. Inclui códigos para equações diferenciais parciais, dinâmica de fluidos computacional (CFD), multigrid, modelos estocásticos e mais.
+
+---
+
+## 📁 Estrutura do Repositório
+
+./
+├── Poisson/
+├── Navier-Stokes/
+├── Multigrid/
+├── Three-Body-Problem/
+├── Data-Analysis/
+└── utils/
