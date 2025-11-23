@@ -8,7 +8,7 @@
  4. REFERÊNCIAS
 
 
-## INTRODUÇÃO
+## 📘 INTRODUÇÃO
 
 A equação de Poisson é um exemplo de EDP (Equação Diferencial Parcial) elíptica bastante conhecida na física e modela alguns problemas importantes, como campos eletrostáticos, gravitação newtoniana e problemas de difusão em estado estacionário. Suas condições de contorno levam a soluções tipicamente suaves. Este código resolve numericamente a equação dada por
 
@@ -41,13 +41,13 @@ A discretização é feita por diferenças finitas de segunda ordem e o sistema 
 
 ---
 
-## INSTRUÇÕES DE EXECUÇÃO
+## 🛠️ INSTRUÇÕES DE EXECUÇÃO
 
 O código está escrito em C, então garanta ter o compilador GCC na sua máquina além do gnuplot para vizualizar as saídas de dados. Estou usando o Makefile que automatiza as etapas. Logo, para compilar, executar e gerar os gráficos dos arquivos "*.dat" criados, apenas dê um
- ~$make
+ `make`
  
  Para apagar os arquivos "*.dat" e "*.png" gerados
- ~$make clean
+ `make clean`
  
  Não é necessário nenhuma entrada de valores, o que agiliza testes, mas você
  pode modificar como quiser várias quantidades no início do documento
@@ -62,6 +62,6 @@ O código irá gerar as soluções analítica e numérica abaixo,
 
 ---
 
-## REFERÊNCIAS
+## 🔗 REFERÊNCIAS
 
 Computational Physics - Nicholas J. Giordano
