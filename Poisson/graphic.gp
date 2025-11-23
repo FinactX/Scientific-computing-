@@ -42,4 +42,3 @@ set title 'Solução Analítica da Equação de Poisson 2D'
 
 # Plota os dados do arquivo "solucao_analitica.dat" (solução analítica)
 splot 'solucao_analitica.dat' using 1:2:3 with lines
-

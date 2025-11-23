@@ -4,7 +4,7 @@
 #define Nx 130           // Número de pontos x
 #define Ny 130           // Número de pontos y
 #define MAX_ITER 1000000 // Número máximo de iterações
-#define TOLERANCE 1e-4  // Tolerância para a convergência
+#define TOLERANCE 1e-8   // Tolerância para a convergência
 #define PI 3.14159265359
 #define centerCel 1.0
 #define Ymin 0.0
