@@ -50,7 +50,7 @@ O código está escrito em C, então garanta ter o compilador GCC na sua máquin
  `make clean`
  
  Não é necessário nenhuma entrada de valores, o que agiliza testes, mas você
- pode modificar como quiser várias quantidades no início do documento
+ pode modificar como quiser várias quantidades no início do documento "main.c"
 
 ---
 
