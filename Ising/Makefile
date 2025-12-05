@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -Wextra -pg -std=c99 -lm -O3 -fopenmp -ofast
+CFLAGS = -Wall -Wextra -pg -std=c99 -lm -O3 -ofast
 
 all: compile run_simulation plot_graph
 
