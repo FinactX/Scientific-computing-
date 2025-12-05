@@ -76,7 +76,6 @@ void metropolis(double T) {
 
 double t_Energy() {
     double E = 0.0;
-    #pragma omp parallel for
     for (int i = 0; i < Lx; i++)
         for (int j = 0; j < Ly; j++) {
             int right = spin[i][neighbor_y(j + 1)];
@@ -88,7 +87,6 @@ double t_Energy() {
 
 double t_Magnetization() {
     double M = 0.0;
-    #pragma omp parallel for
     for (int i = 0; i < Lx; i++)
         for (int j = 0; j < Ly; j++)
             M += spin[i][j];
@@ -110,23 +108,6 @@ int main() {
 		double E_sum = 0.0, E2_sum = 0.0;
 		double M_sum_abs = 0.0;       // Para <|M|>
 		double M_sum = 0.0, M2_sum = 0.0; // Para \Chi
-
-/*if (fabs(T - 4.0) < 1e-6) {  // T = slá, qualquer porra
-    FILE *fconf = fopen("config_T%.1f.dat", "w");
-    if (fconf == NULL) {
-        perror("Erro ao abrir arquivo");
-        exit(1);
-    }
-
-    for (int i = 0; i < Lx; i++) {
-        for (int j = 0; j < Ly; j++) {
-            fprintf(fconf, "%d ", spin[i][j]);
-        }
-        fprintf(fconf, "\n");
-    }
-
-    fclose(fconf);
-}*/
 
 //PRINTAR AS CONFIGURAÇÕES
 		if (fabs(T- 1.0) < 1e-6 || fabs(T- 1.5) < 1e-6 || fabs(T- 2.0) < 1e-6 || fabs(T- 2.5) < 1e-6 || fabs(T- 3.0) < 1e-6 || fabs(T- 4.0) < 1e-6 || fabs(T- 5.0) < 1e-6 || fabs(T- 10.0) < 1e-6)  {
